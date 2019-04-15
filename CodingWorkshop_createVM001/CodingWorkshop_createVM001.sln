@@ -7,6 +7,8 @@ Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CodingWorkshop_createVM001"
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CodingWorkshop_createVM001_inEXsubnet", "CodingWorkshop_createVM001_inEXsubnet\CodingWorkshop_createVM001_inEXsubnet.deployproj", "{09CBD671-CB5E-4CA6-AD67-25B977509E8A}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CodingWorkshop_createVM001_inEXsubnet_V2", "CodingWorkshop_createVM001_inEXsubnet_V2\CodingWorkshop_createVM001_inEXsubnet_V2.deployproj", "{C33FC24F-C533-4E4E-A750-D20761385493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{09CBD671-CB5E-4CA6-AD67-25B977509E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09CBD671-CB5E-4CA6-AD67-25B977509E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09CBD671-CB5E-4CA6-AD67-25B977509E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33FC24F-C533-4E4E-A750-D20761385493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33FC24F-C533-4E4E-A750-D20761385493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33FC24F-C533-4E4E-A750-D20761385493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33FC24F-C533-4E4E-A750-D20761385493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

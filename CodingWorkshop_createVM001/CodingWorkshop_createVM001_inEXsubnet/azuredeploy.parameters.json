@@ -1,6 +1,49 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "existingVNETName": {
+      "value": "DTEK-PRODUCTION-Vnet1"
+    },
+    "existingSubnetName": {
+      "value": "DTEK-BACKEND-SN1"
+    },
+    "vmSize": {
+      "value": "Standard_B1s"
+    },
+    "domainToJoin": {
+      "value": "dtekaz.local"
+    },
+    "domainUsername": {
+      "value": "DTEKAZDOMADMIN"
+    },
+    "domainPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/e8930b88-433c-4dce-a2a7-18d1929510fe/resourceGroups/MSDN-KeyVaults/providers/Microsoft.KeyVault/vaults/MSDN-KeyVault"
+        },
+        "secretName": "DTEKAZDOMADMIN"
+      }
+    },
+    "domainJoinOptions": {
+      "value": 3
+    },
+    "vmAdminUsername": {
+      "value": "****"
+    },
+    "vmAdminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/e8930b88-433c-4dce-a2a7-18d1929510fe/resourceGroups/MSDN-KeyVaults/providers/Microsoft.KeyVault/vaults/MSDN-KeyVault"
+        },
+        "secretName": "DTEKAZADMIN"
+      }
+    },
+    "dnsLabelPrefix": {
+      "value": "dtekazsrv004"
+    },
+    "ouPath": {
+      "value": "OU=STANDARD,OU=DTEKAZ SERVERS,DC=DTEKAZ,DC=local"
+    }
   }
 }
