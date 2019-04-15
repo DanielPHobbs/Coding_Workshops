@@ -3,13 +3,18 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-USER"
-    },
-    "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "DTEKAZADMIN"
     },
     "dnsLabelPrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "dtekazsrv006"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/e8930b88-433c-4dce-a2a7-18d1929510fe/resourceGroups/MSDN-KeyVaults/providers/Microsoft.KeyVault/vaults/MSDN-KeyVault"
+        },
+        "secretName": "DTEK-ADMIN-USER"
+      }
     }
   }
 }
