@@ -10,5 +10,6 @@ Module Program
         Console.Write("Day of year: ")
         Console.WriteLine(dayOfYear)
 
+
     End Sub
 End Module

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HelloWorld", "HelloWorld\HelloWorld.vbproj", "{2BEBF2D9-18FC-4DF9-BC7F-431EFD1F088D}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "HelloWorld", "HelloWorld\HelloWorld.vbproj", "{2BEBF2D9-18FC-4DF9-BC7F-431EFD1F088D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld_c", "HelloWorld_c\HelloWorld_c.csproj", "{2ECED296-710C-4228-AFD3-7C2B3E37E1B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld_c", "HelloWorld_c\HelloWorld_c.csproj", "{2ECED296-710C-4228-AFD3-7C2B3E37E1B8}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HelloWorld_p", "HelloWorld_p\HelloWorld_p.pyproj", "{1038FA92-3502-4EA5-A05C-37093C6EA15C}"
 EndProject
