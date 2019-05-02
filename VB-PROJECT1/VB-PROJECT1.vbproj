@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4312B7E0-C357-4569-AD10-AC44BFAC2DF6}</ProjectGuid>
+    <ProjectGuid>{C58BBBBA-2626-42F0-B65B-DFDDFE867AA4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Hello_World.Module1</StartupObject>
-    <RootNamespace>Hello_World</RootNamespace>
-    <AssemblyName>Hello World</AssemblyName>
+    <StartupObject>VB_PROJECT1.Module1</StartupObject>
+    <RootNamespace>VB_PROJECT1</RootNamespace>
+    <AssemblyName>VB-PROJECT1</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Hello World.xml</DocumentationFile>
+    <DocumentationFile>VB-PROJECT1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Hello World.xml</DocumentationFile>
+    <DocumentationFile>VB-PROJECT1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

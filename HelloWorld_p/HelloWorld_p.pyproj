@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1038fa92-3502-4ea5-a05c-37093c6ea15c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HelloWorld_p.py</StartupFile>
+    <StartupFile>Calendar.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

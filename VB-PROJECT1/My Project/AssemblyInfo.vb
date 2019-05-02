@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Hello World")>
+<Assembly: AssemblyTitle("VB-PROJECT1")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Hello World")>
+<Assembly: AssemblyProduct("VB-PROJECT1")>
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("c4a66a44-b902-423c-bde9-002983c65b59")>
+<Assembly: Guid("6cf684d5-80c2-49b9-be04-c0df90276768")>
 
 ' Version information for an assembly consists of the following four values:
 '
